@@ -9,4 +9,5 @@ def parse_company_info(company_tikcer: str) -> Dict[str, Any]:
     stock = yf.Ticker(lower_company_ticker)
     cash_flow = stock.cash_flow
     balance_sheet = stock.balance_sheet
+
     
